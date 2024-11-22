@@ -293,3 +293,8 @@ Follow the steps below to set the environment variable ``RAY_LOG_TO_STDERR=1`` o
 
 
   ::::
+
+(redirect-to-stderr)=
+## Redirecting Ray logs to files and stderr
+
+`RAY_LOG_TO_FILES_AND_STDERR=2`

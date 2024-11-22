@@ -240,6 +240,9 @@ LOGGER_FORMAT_STDERR = (
     "%(asctime)s\t%(levelname)s ({component}) %(filename)s:%(lineno)s -- %(message)s"
 )
 
+
+LOGGING_REDIRECT_FILES_AND_STDERR_ENVIRONMENT_VARIABLE = "RAY_LOG_TO_FILES_AND_STDERR"
+
 # Constants used to define the different process types.
 PROCESS_TYPE_REAPER = "reaper"
 PROCESS_TYPE_MONITOR = "monitor"
